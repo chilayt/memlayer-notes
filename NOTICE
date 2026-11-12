@@ -1,0 +1,17 @@
+memlayer — notes on auditable agent memory
+
+This repository is dual-licensed by content type:
+
+  * Source code (eval-methodology/reference/*.py): Apache License 2.0
+    See LICENSE.
+
+  * Documentation and articles (README, article/, eval-methodology/SPEC*,
+    docs/): Creative Commons Attribution 4.0 International (CC-BY-4.0).
+    You may share and adapt with attribution. Full text:
+    https://creativecommons.org/licenses/by/4.0/legalcode
+
+COPYRIGHT HOLDER: [set a legal entity before publishing — an individual or
+organization name; "contributors" alone is not a legal Licensor].
+
+All examples in this repository are synthetic. No real user or project data
+is included.
