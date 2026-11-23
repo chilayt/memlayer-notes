@@ -37,6 +37,12 @@ python eval-methodology/reference/eval_reference.py
 - 撤回能力是**设计目标，本仓库未实现**；见 [SAFETY-BOUNDARIES.zh.md](docs/SAFETY-BOUNDARIES.zh.md)。**别假设「撤回=遗忘」。**
 - 所有示例均为**合成**，不含真实用户/项目数据。
 
+## 后续实现的验证
+
+遇到改口时，核对旧约定和来源，由作者确认是全量替换还是限定条件的例外，并保留双方出处。回归评测可在新会话分别跑常规场合和例外场合，核对实际送入模型的记忆与输出是否一致。对外示例使用虚构记录，便于复现。
+
+引擎和 DSH 适配器另行准备，本仓库持续维护合成评测方法与渲染演示。
+
 ## 许可
 
 - **代码**（`reference/`）：Apache-2.0，见 [LICENSE](LICENSE)。
