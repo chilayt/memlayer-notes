@@ -33,7 +33,7 @@ Python standard library only; no third-party dependencies.
 
 ## Status & boundaries
 
-- Research notebook, not production-ready. The full system is developed privately.
+- Research notebook, not production-ready. The companion engine is published separately.
 - Retraction capabilities are **design goals, not implemented in this repo**; see [SAFETY-BOUNDARIES.md](docs/SAFETY-BOUNDARIES.md). **Do not assume "retracted = forgotten."**
 - All examples are **synthetic**. No real user or project data is included.
 
@@ -41,7 +41,7 @@ Python standard library only; no third-party dependencies.
 
 When a new statement changes an existing preference, review the previous source and confirm whether the change applies everywhere or only under a stated condition. Keep both sources in the audit trail. A useful regression runs the general case and the exception case in fresh sessions, then checks which memory reached the model and whether the answer followed it. Use fictional records to publish a reproducible example.
 
-The engine and DSH adapter are prepared separately. This notebook keeps the synthetic methodology and the rendering demonstration.
+The [Memlayer engine and DSH adapter](https://github.com/chilayt/memlayer) are maintained in the companion repository. This notebook keeps the synthetic methodology and the rendering demonstration.
 
 ## License
 
